@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Annotation profile for myhippoproject-bootstrap-webfiles" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="myhippoproject-bootstrap-webfiles" />
+      </profile>
+      <profile default="false" name="Annotation profile for myhippoproject-bootstrap-configuration" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="myhippoproject-bootstrap-configuration" />
+      </profile>
+      <profile default="false" name="Annotation profile for myhippoproject-bootstrap-content" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="myhippoproject-bootstrap-content" />
+      </profile>
+      <profile default="false" name="Annotation profile for myhippoproject-cms" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="myhippoproject-cms" />
+      </profile>
+      <profile default="false" name="Annotation profile for myhippoproject-site" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="myhippoproject-site" />
+      </profile>
+      <profile default="false" name="Annotation profile for myhippoproject-essentials" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="myhippoproject-essentials" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="myhippoproject" target="1.5" />
+      <module name="myhippoproject-bootstrap" target="1.5" />
+      <module name="myhippoproject-bootstrap-configuration" target="1.8" />
+      <module name="myhippoproject-bootstrap-content" target="1.8" />
+      <module name="myhippoproject-bootstrap-webfiles" target="1.8" />
+      <module name="myhippoproject-cms" target="1.8" />
+      <module name="myhippoproject-essentials" target="1.8" />
+      <module name="myhippoproject-site" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

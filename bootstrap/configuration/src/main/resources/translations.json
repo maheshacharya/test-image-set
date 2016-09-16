@@ -1,0 +1,46 @@
+{
+  "hippo:templates":   {
+    "en":     {
+      "new-resource-bundle": "new resource bundle",
+      "new-untranslated-folder": "new untranslated folder"
+    },
+    "nl":     {
+      "new-resource-bundle": "nieuwe resource bundle",
+      "new-untranslated-folder": "nieuwe onvertaalde map"
+    },
+    "de":     {
+      "new-resource-bundle": "Neues Resource-Bundle",
+      "new-untranslated-folder": "Neuer nicht übersetzter Ordner"
+    },
+    "fr":     {
+      "new-resource-bundle": "nouveau resource bundle",
+      "new-untranslated-folder": "nouveau dossier non traduit"
+    }
+  },
+  "hippo:types": {"myhippoproject:rosterdocument":   {
+    "en":     {
+      "myhippoproject:title": "Title",
+      "myhippoproject:description": "Description",
+      "jcr:name": "rosterdocument",
+      "myhippoproject:link": "Roster Document URL"
+    },
+    "nl":     {
+      "myhippoproject:title": "Titel",
+      "myhippoproject:description": "Beschrijving",
+      "jcr:name": "rosterdocument",
+      "myhippoproject:link": "rosterdocument URL"
+    },
+    "fr":     {
+      "myhippoproject:title": "Titre",
+      "myhippoproject:description": "Description",
+      "jcr:name": "Vidéo",
+      "myhippoproject:link": "URL vidéo"
+    },
+    "de":     {
+      "myhippoproject:title": "Titel",
+      "myhippoproject:description": "Beschreibung",
+      "jcr:name": "rosterdocument",
+      "myhippoproject:link": "rosterdocument-URL"
+    }
+  }}
+}
